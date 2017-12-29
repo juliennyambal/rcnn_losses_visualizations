@@ -18,6 +18,10 @@ The __a__ before the location of the file is to append the created the file with
 
 which basically redirecting the stdout and stderr to detection_log.txt.
 
+### Usage
+
+python plot\_rcnn\_losses\_ZF.py -lf my\_model\_zf\_200000.log
+
 ### Disclaimer
 
 This code has been run on __ZF__ network. Some names change in the log file. For instance, cls\_loss becomes loss\_cls in a __VGG_1024__.
